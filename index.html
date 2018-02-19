@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <!-- intelligence stuff -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quentin R</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='style.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Prata" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+    <!-- content to display
+    To do h2, type h2 and do tab -->
+
+
+  <div id="banner">
+    <p><h1>LES GORGES DU VERDON</h1></p>
+    <p><a href="http://www.lesgorgesduverdon.fr/" target="_blank"><button class="btn-treehouse">J'y vais !</button></a>
+  </div>
+
+
+<div class="container">
+  <div class="row garcia">
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/gduv1.jpg');">
+        <div class="card-category">Les Gorges</div>
+        <div class="card-description">
+        </div>
+        <img class="card-user" src="images/pmontagne.png">
+        <a class="card-link" href="#" ></a>
+      </div>  
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/lac2.jpg');">
+        <div class="card-category">Le Lac</div>
+        <div class="card-description">
+        </div>
+        <img class="card-user" src="images/plac.png">
+        <a class="card-link" href="#" ></a>
+      </div>  
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/village.jpg');">
+        <div class="card-category">Les Villages</div>
+        <div class="card-description">
+        </div>
+        <img class="card-user" src="images/pvillage.png">
+        <a class="card-link" href="#" ></a>
+      </div>  
+    </div>
+
+  </div>
+</div> 
+
+<div class="container">
+  <div class="row sanchez">
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/hébergement.jpg');">
+        <div class="card-category">Hébergement</div>
+        <div class="card-description">
+        </div> 
+        <img class="card-user" src="images/phébergement5.png">
+        <a class="card-link" href="#" ></a>
+      </div>  
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/Activités.jpg');">
+        <div class="card-category">Activités sportives</div>
+        <div class="card-description">
+        </div>
+        <img class="card-user" src="images/pactivités.png">
+        <a class="card-link" href="#" ></a>
+      </div>  
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/bonplan.jpg');">
+        <div class="card-category">Bon Plan</div>
+        <div class="card-description">
+        </div>
+        <img class="card-user" src="images/pbonplan2.jpg">
+        <a class="card-link" href="#" ></a>
+      </div>  
+    </div>
+
+  </div>
+</div> 
+
+<div id="map"></div>
+
+<div id="footer">
+  <p>This is a playground landing ©Quentin</p>
+  <ul class="list-inline">
+  <li><a href="https://www.youtube.com/watch?v=tsVBZ1Bb7sU"><i class="fa fa-youtube"></i></a></li>
+  <li><a href="https://www.facebook.com/pages/Gorges-du-Verdon/111034185584079"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fa fa-github"></i></a></li>
+  </ul>
+</div>
+
+<script>
+      function initMap() {
+        var uluru = {lat: 43.7414, lng: 6.3462};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNfLG0LAvLWi6oUGWjhcKFcjskVw-ytWM&callback=initMap">
+    </script>
+
+  </body>
+</html>

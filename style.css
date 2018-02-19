@@ -1,0 +1,156 @@
+/* style.css */
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+body{
+  color: black;
+  font-size: 15px;
+  font-family: Playfair Display, serif;
+  text-align: center;
+  margin: 0px;
+
+}
+h1{
+  font-family:Prata, serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 55px; 
+  padding : 50px;
+}
+h2 {
+  font-family: Playfair Display, serif;
+  color: #2b6ea1;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #99eff7;
+}
+a:hover {
+  text-decoration: none;
+  color: #2b6ea1;
+}
+#footer{
+  font-size: 18px;
+  font-family:Raleway;
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  margin-top: 90px;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+#footer a:hover {
+  color: #99eff7;
+  transition: all 0.3s hover;
+}
+.card{
+    padding: 100px;
+    text-align: center;
+} 
+#banner {
+  background-image:url("images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 290px;
+  color: black;
+}
+´#banner h1 {
+  color: black;
+  text-shadow: 1px 1px 5px black;
+}
+#banner p {
+  font-size: 30px;
+  font-family: 'Playfair Display';
+}
+
+.card {
+  height: 175px;
+  text-shadow: 0 5px 10px rgba(0,0,0.5,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 60%;
+}
+.card-category {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  font-size: 21px;
+  text-transform: uppercase;
+  opacity: 0.9;
+  font-weight: lighter;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h2 {
+  font-size: 24px;
+}
+
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.garcia{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.sanchez{
+  margin-bottom: 50px;
+  margin-top: 25px
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+  border : none;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+#map {
+  width: 95%;
+  height: 400px;
+  background-color: grey;
+  margin:25px;
+}
